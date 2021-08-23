@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL-String-Splitter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>     
+    <!--
+        Create a JavaScript program that asks for a URL with 
+        the format protocol://part1.part2.....extension and 
+        reads it into a string. Then, the code should split 
+        the string into an array. For example, if the URL is 
+        http://www.google.com, the resulting array must contain 
+        the following elements: http, www, google, and com. (10 marks)
+    --> 
+    <body>
+        <div id="container">
+            <header>
+                <h1>Welcome to the String Splitter</h1>
+            </header>
+            <form>
+                <h2>Enter a string or URL to split:</h2>
+                <input type="text" id="string" name="string">
+
+                <h2>Press to Split</h2>
+                <button type="button" onclick="func();">Press<br>Me</button>
+
+                <h2 id="result""></h2>
+            </form>
+            <footer>
+            </footer>
+        </div>
+        <script src="script.js"></script> 
+    </body>
+</html>
